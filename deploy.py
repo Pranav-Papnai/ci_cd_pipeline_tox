@@ -1,4 +1,4 @@
-from ml_model.train import train_model
+from model.train import train_model
 def deploy_model():
     # Train and deploy the model
     model = train_model()
